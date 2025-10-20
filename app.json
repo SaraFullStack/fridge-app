@@ -14,7 +14,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": "4",
+      "versionCode": 16,
       "adaptiveIcon": {
         "foregroundImage": "./assets/orange.png",
         "backgroundImage": "./assets/orange.png"
@@ -22,15 +22,13 @@
       "package": "com.sarafullstack.fridgeapp"
     },
     "web": {
-      "height": "100vh",
-      "display": "flex",
-      "justifyContent": "center",
-      "alignItems": "center"
+      "display": "standalone"
     },
     "extra": {
       "eas": {
         "projectId": "7c7bb569-57e7-4ddd-9964-173efcd2394f"
       }
-    }
+    },
+    "plugins": ["expo-asset", "expo-sqlite"]
   }
 }
